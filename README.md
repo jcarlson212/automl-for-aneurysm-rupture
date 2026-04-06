@@ -94,7 +94,7 @@ The dataset consists of 112 intracranial aneurysms from 111 patients (44 rupture
 
 - 100 random train-test splits (80% train/validation, 20% test)
 - Stratified sampling to maintain class distribution
-- Feature engineering: square root/cube root transformations for area/volume features
+- Feature engineering: initially tried square root/cube root transformations for area/volume features, but to make it easier to compare to other papers this was ommitted despite acheiving the best performance on final metrics.
 - Additional derived features: OSI to ostium area ratio, sac width × size ratio
 
 ## Methods
